@@ -1,7 +1,7 @@
 export function getCurrentPage(pathname: string): string {
   switch (pathname) {
-    case "/":
-      return "Home";
+    case "/dashboard":
+      return "Dashboard";
     case "/program-data":
       return "Program Data";
     case "/view-report":
